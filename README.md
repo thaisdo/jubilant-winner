@@ -28,12 +28,20 @@ simple-java-etl/
 ## How to Run
 
 1. Open your terminal and navigate to the project root folder:
-
 ```bash
 cd simple-java-etl
+```
+
+2. Compile the Java source:
+```bash
 javac src/SimpleETL.java
+```
+
+3. Run the program:
+```bash
 java -cp src SimpleETL
 ```
+
 > Make sure your working directory is the root folder when you run the program.
 
 ## Dependency Management
